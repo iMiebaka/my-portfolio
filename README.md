@@ -6,7 +6,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Portfoilio Web Page for yours truly
     <br> 
 </p>
 
