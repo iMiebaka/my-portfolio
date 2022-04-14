@@ -1,0 +1,211 @@
+@media only screen and (max-width: 700px) {
+  /* constants */
+  .mt {
+    margin-top: 1rem;
+  }
+
+  .ml {
+    margin-left: 0rem;
+  }
+
+  .pr {
+    padding-right: 3rem;
+  }
+
+  /* body */
+  .wrapper {
+    margin: 0.5rem auto;
+  }
+
+  /* header */
+  header {
+    padding: 0.5rem 1rem;
+  }
+  .header img {
+    width: 2rem;
+  }
+
+  .mobile-btn {
+    display: block;
+  }
+  .main-view-header li {
+    display: none;
+  }
+
+  .mobile-view-header,
+  li {
+    padding-top: 1.5rem;
+    padding-right: 0.5rem;
+  }
+  .mobile-view-header,
+  button {
+    justify-content: flex-end;
+  }
+
+  /* call to action */
+  .call-to-action {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -0.5rem;
+  }
+  .cover-image-zone {
+    margin-top: 1rem;
+  }
+  .port-cover-image {
+    display: block;
+    width: 15rem;
+    /* margin-top: -0.7rem; */
+    margin-right: 0rem;
+  }
+  .side-bar-socials {
+    display: none;
+  }
+  .port-cover-image-bg {
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    right: -6rem;
+    width: 30rem;
+  }
+  .port-sitation {
+    width: 90%;
+  }
+  .port-name {
+    font-size: 2rem;
+  }
+  /* achievement-wrapper */
+  .testimony-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .port-testimony {
+    width: 200px;
+    height: 100px;
+  }
+
+  .testimony .testimony-number {
+    font-size: 1.5rem;
+  }
+  .testimony .testimony-title {
+    font-size: 1.1rem;
+  }
+  .achievement-icon {
+    font-size: 1.2rem;
+  }
+  /* Portfolio Project */
+  .portfolio-nav {
+    flex-direction: column;
+  }
+  .portfolio-desc {
+    width: 90%;
+  }
+  .portfolio-heading {
+    font-size: 1.5rem;
+  }
+  .portfolio-project-btn {
+    font-size: 0.6rem;
+    padding: 0.7rem 1rem;
+  }
+  .portfolio-thumbnails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .portfolio-thumbnail {
+    width: 70%;
+    height: 30rem;
+  }
+
+  /* My Experience */
+  .myexperience-heading {
+    margin-bottom: 2rem;
+  }
+  .myexperience-header {
+    font-size: 2rem;
+  }
+  .myexperience-desc {
+    max-width: 90%;
+    font-size: 0.8rem;
+  }
+
+  .myexperience-timelines {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .myexperience-timeline {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+    margin-left: 2rem;
+  }
+  .myexperience-body {
+    display: flex;
+    position: static;
+    top: 0;
+    width: 90%;
+  }
+  .myexperience-body-two {
+    position: static;
+    bottom: 0;
+  }
+
+  /* portfoilio */
+  .port-contact-info {
+    font-size: 1rem;
+  }
+  /* Contact us */
+  .portfolio-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+  }
+  .contact-us-title {
+    font-size: 2rem;
+  }
+  .drop-a-line {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .make-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-fixes {
+    background: transparent;
+    border-radius: 0.2rem;
+    padding: 1rem !important;
+    border: 0.1px solid #544a66;
+    color: white;
+  }
+  .send-message-btn {
+    margin-top: 1rem;
+  }
+
+  /* Footer */
+  .footer-decoration {
+    display: none;
+  }
+  .footer-center {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+  }
+  .footer-greeting {
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+  }
+}
