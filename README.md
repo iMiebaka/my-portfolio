@@ -21,11 +21,12 @@
 - [Acknowledgments](#acknowledgments)
 
 ## 💡 Idea / Solution <a name = "idea"></a>
+
 I need site to host my web portfolio, but the cost of running it on a server all the time was beyound my budget.
 In my quest for static content hosting, I thought of GitHub Page.
 
-
 ### Prerequisites
+
 This project was build with react :atom_symbol:. <br>
 To run this project locally you need to have node install on your machine
 
@@ -33,16 +34,18 @@ To run this project locally you need to have node install on your machine
 node -v   #confirm node installation
 ```
 
-
 ### Installing
-Open up a command  window and run the following code below
+
+Open up a command window and run the following code below
 
 ```
 git clone https://github.com/iMiebaka/my-portfolio
 cd my-portfolio
 npm install
 ```
+
 If the dependencies are completely install, start the app with the code below.
+
 ```
 npm run dev
 ```
@@ -54,16 +57,18 @@ The Files to be modified are in the Component folder
 The file with basic information about the web page in the info.js file.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
+
 Run the build command to get production build
 
 ```
 npm run build
 ```
+
 The build files are located in the dist dir
 
 - [React](https://www.reactjs.org/) - React
 - [NodeJs](https://nodejs.org/en/) - Server Environment
-The site was hosted on GitHub page
+  <a href="https://imiebaka.github.io/">The site was hosted on GitHub page<a/>
 
 ## ✍️ Authors <a name = "authors"></a>
 
