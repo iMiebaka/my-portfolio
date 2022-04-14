@@ -1,7 +1,7 @@
-<!-- <p align="center">
+<p align="center">
   <a href="" rel="noopener">
- <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
-</p> -->
+ <img src="https://github.com/iMiebaka/my-portfolio/blob/master/Screenshot.png?raw=trueg" alt="Project logo"></a>
+</p>
 <h3 align="center">my-portfolio</h3>
 
 ---
@@ -14,11 +14,9 @@
 
 - [Idea / Solution](#idea)
 - [Dependencies / Limitations](#limitations)
-- [Future Scope](#future_scope)
 - [Setting up a local environment](#getting_started)
 - [Usage](#usage)
 - [Technology Stack](#tech_stack)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
 
@@ -49,7 +47,7 @@ If the dependencies are completely install, start the app with the code below.
 npm run dev
 ```
 
-## 🎈 Usage <a name="usage"></a>
+## 🎈 Usage/ Modifications <a name="usage"></a>
 
 The Files to be modified are in the Component folder
 <br/>
