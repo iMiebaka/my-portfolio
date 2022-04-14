@@ -6,11 +6,9 @@
 
 <div align="center">
 
-[![Hackathon](https://img.shields.io/badge/hackathon-name-orange.svg)](http://hackathon.url.com)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/imiebaka/my-portfolio/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/imiebaka/my-portfolio/pulls)
 
 </div>
 
@@ -63,17 +61,6 @@ npm run dev
 
 The Files to be modified are in the Component folder
 <br/>
-── components
-│   │   ├── Achievements.jsx
-│   │   ├── CallToAction.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Footer.jsx
-│   │   ├── GoUp.jsx
-│   │   ├── Header.jsx
-│   │   ├── index.js
-│   │   ├── MyExperience.jsx
-│   │   └── Portfolio.jsx
-<br/>
 The file with basic information about the web page in the info.js file.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
@@ -99,5 +86,5 @@ The site was hosted on GitHub page
 - <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by riajulislam - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/social" title="social icons">Social icons created by riajulislam - Flaticon</a>
 - <a href="https://www.blobmaker.app/" title="HTML Shape SVG">Blob Maker</a>
-- <a href="https://www.behance.net/gallery/139668309/Portfolio-Website-Design">Inspired By - Multiple Owner <a/>
+- <a href="https://www.behance.net/gallery/139668309/Portfolio-Website-Design">Inspired By - Multiple Owners <a/>
 - Hat tip to anyone whose code was used
