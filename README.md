@@ -68,6 +68,7 @@ The build files are located in the dist dir
 
 - [React](https://www.reactjs.org/) - React
 - [NodeJs](https://nodejs.org/en/) - Server Environment
+  <br/>
   <a href="https://imiebaka.github.io/">The site was hosted on GitHub page<a/>
 
 ## ✍️ Authors <a name = "authors"></a>
