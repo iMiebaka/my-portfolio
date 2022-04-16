@@ -101,6 +101,7 @@ li a {
 }
 
 .port-name {
+  margin-top: .5rem;
   color: var(--main-font-color);
   font-size: 3rem;
   font-weight: 600;
@@ -116,12 +117,12 @@ li a {
   width: 40rem;
 }
 .port-title {
-  margin-top: 1px;
+  margin-top: .5rem;
   color: var(--main-font-color);
 }
 
 .port-sitation {
-  margin-top: 20px;
+  margin-top: .5rem;
   color: var(--main-font-color);
   font-size: var(--font-h2);
   /* max-width: 300px; */
@@ -300,7 +301,7 @@ li a {
 
 .myexperience-desc {
   max-width: 40rem;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   text-align: center;
   line-height: 1.4rem;
 }
@@ -415,7 +416,7 @@ span {
   font-weight: 500;
 }
 .contact-us-desc {
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
 }
 .contact-us {
   display: flex;
@@ -429,7 +430,7 @@ span {
 .port-contact-item {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .port-contact-item-details {
@@ -442,6 +443,7 @@ span {
 .port-contact-header {
   color: rgb(97, 97, 97);
   font-size: 0.9rem;
+  padding-bottom: .5rem;
 }
 .port-contact-info {
   font-size: 1.3rem;

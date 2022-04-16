@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
       <div className="line-1"></div>
       <div className="footer-copyright">
-        &copy; {new Date().getFullYear()} - M3 District | All right reserved
+        &copy; {new Date().getFullYear()} - M3 District - All right reserved
       </div>
     </footer>
   );
