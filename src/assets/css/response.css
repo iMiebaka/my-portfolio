@@ -20,6 +20,7 @@
   /* header */
   header {
     padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
   }
   .header img {
     width: 2rem;
@@ -54,8 +55,7 @@
     margin-bottom: -0.5rem;
   }
   .cover-image-zone {
-    /* margin-top: 3rem; */
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
   }
   .port-cover-image {
     display: block;
