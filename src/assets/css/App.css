@@ -448,8 +448,16 @@ span {
   font-size: 0.9rem;
   padding-bottom: 0.5rem;
 }
-.port-contact-info {
+
+.port-contact-info,
+a {
   font-size: 1.3rem;
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+
+.port-contact-info:hover {
+  color: aliceblue;
 }
 .port-contact-icons {
   padding: 0.4rem;

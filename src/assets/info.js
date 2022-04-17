@@ -1,5 +1,11 @@
+const contact = {
+  phone: "+234 123 1235",
+  email: "miebakaiwarri.dev@gmail.com",
+  address: "15 John Doe str, NG",
+};
+
 const info = {
-  profile:{
+  profile: {
     name: "Miebaka Iwarri",
     position: "Software Engineer",
   },
@@ -56,16 +62,20 @@ const info = {
   repudiandae corrupti explicabo quod officiis laborum? Qui culpa,\
   maxime rem id voluptate atque.",
   contact: [
-    ["mdi mdi-phone-in-talk port-contact-icons", "Call Me", "+234 123 1235"],
+    [
+      "mdi mdi-phone-in-talk port-contact-icons",
+      "Call Me",
+      `<a className="port-contact-info" href="tel:${contact.phone}">${contact.phone}</a>`,
+    ],
     [
       "mdi mdi-message-plus port-contact-icons",
       "Email",
-      "miebakaiwarri.dev@gmail.com",
+      `<a className="port-contact-info" href="mailto:${contact.email}">${contact.email}</a>`,
     ],
     [
       "mdi mdi-map-marker-outline port-contact-icons",
       "Address",
-      "15 John Doe str, NG",
+      `<span className="port-contact-info">${contact.address}</span>`,
     ],
   ],
   socials: {
@@ -74,7 +84,7 @@ const info = {
     instagram: "https://instagram.com/miebaka.iwarri",
     linkedin: "https://linkedin.com/in/miebakaiwarri",
   },
-  cv: "Miebaka-Iwarri_CV.pdf"
+  cv: "Miebaka-Iwarri_CV.pdf",
 };
 
 export default info;

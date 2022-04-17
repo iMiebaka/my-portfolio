@@ -1,8 +1,16 @@
 import React, { useEffect } from "react";
 import info from "../assets/info";
+import swal from "sweetalert";
+import { Markup } from 'interweave';
 
 const Contact = () => {
-  const submitBudget = () => {};
+  const submitBudget = () => {
+    swal(
+      "Message Delivery Failed",
+      "Sorry, We could not deliver your message. However, you can send us a message directly to my email, I cant wait to hear from you.",
+      "error"
+    );
+  };
 
   return (
     <div className="portfolio-contact wrapper" id="contact-me">
@@ -21,7 +29,7 @@ const Contact = () => {
                 <i className={item[0]}></i>
                 <div className="port-contact-item-details">
                   <span className="port-contact-header">{item[1]}</span>
-                  <span className="port-contact-info">{item[2]}</span>
+                  <Markup content={item[2]}/>
                 </div>
               </div>
             );
