@@ -42,6 +42,7 @@ li {
   margin-left: 20px;
   color: var(--main-font-color);
   font-size: var(--font-one);
+  font-weight: 500;
 }
 
 .close-menu button,
@@ -53,7 +54,7 @@ li {
   font-size: var(--font-one);
   padding: 3px 10px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .close-menu {
@@ -101,7 +102,7 @@ li a {
 }
 
 .port-name {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   color: var(--main-font-color);
   font-size: 3rem;
   font-weight: 600;
@@ -109,20 +110,21 @@ li a {
 .cover-image-zone {
   position: relative;
 }
+
 .port-cover-image-bg {
   position: absolute;
   z-index: -1;
-  top: -6rem;
-  right: 2rem;
-  width: 40rem;
+  top: 2rem;
+  right: 10.5rem;
+  /* width: 20rem; */
 }
 .port-title {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   color: var(--main-font-color);
 }
 
 .port-sitation {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   color: var(--main-font-color);
   font-size: var(--font-h2);
   /* max-width: 300px; */
@@ -191,6 +193,7 @@ li a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .testimony span {
   color: var(--main-font-color);
@@ -443,7 +446,7 @@ span {
 .port-contact-header {
   color: rgb(97, 97, 97);
   font-size: 0.9rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 .port-contact-info {
   font-size: 1.3rem;
@@ -549,7 +552,6 @@ footer {
   transition: 0.3s all ease-in;
   text-decoration: none;
   color: var(--icon-background);
-
 }
 .go-up i {
   font-size: 3rem;

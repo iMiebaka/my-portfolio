@@ -69,10 +69,10 @@ const info = {
     ],
   ],
   socials: {
-    facebook: "https://facebook.com/profile/miebaka.iwarri",
+    facebook: "https://facebook.com/miebaka.iwarri",
     twitter: "https://twitter.com/miebakaIwarri",
     instagram: "https://instagram.com/miebaka.iwarri",
-    linkedin: "https://linkedin.com/in/miebaka.iwarri",
+    linkedin: "https://linkedin.com/in/miebakaiwarri",
   },
   cv: "Miebaka-Iwarri_CV.pdf"
 };

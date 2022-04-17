@@ -32,17 +32,17 @@ const CallToAction = () => {
         <span className="side-bar-title">FOLLOW ME ON:</span>
         <span className="side-bar-line"></span>
         <span className="side-bar-social">
-          <a href={info.socials.facebook}>
+          <a href={info.socials.facebook} target="_blank">
             <i className="mdi mdi-facebook"></i>
           </a>
         </span>
         <span className="side-bar-social">
-          <a href={info.socials.twitter}>
+          <a href={info.socials.twitter} target="_blank">
             <i className="mdi mdi-twitter"></i>
           </a>
         </span>
         <span className="side-bar-social">
-          <a href={info.socials.linkedin}>
+          <a href={info.socials.linkedin} target="_blank">
             <i className="mdi mdi-linkedin"></i>
           </a>
         </span>

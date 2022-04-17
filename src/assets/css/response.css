@@ -1,4 +1,5 @@
 @media only screen and (max-width: 700px) {
+  
   /* constants */
   .mt {
     margin-top: 1rem;
@@ -85,20 +86,21 @@
     flex-direction: column;
     align-items: center;
   }
-
+  
   .port-testimony {
-    width: 200px;
-    height: 100px;
+    width: 50%;
+    height: 200px;
+    align-self: center;
   }
-
+  
   .testimony .testimony-number {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .testimony .testimony-title {
-    font-size: 1.1rem;
+    font-size: 2.1rem;
   }
   .achievement-icon {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
   /* Portfolio Project */
   .portfolio-nav {
@@ -221,5 +223,18 @@
   .footer-greeting {
     font-size: 2rem;
     margin-bottom: 0.6rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+
+  .mobile-view-header {
+    display: none;
+    position: absolute;
+    right: 0;
+    /* top: -1rem; */
+    background-color: var(--card-background);
+    z-index: 1;
+    padding-bottom: 1rem;
   }
 }
