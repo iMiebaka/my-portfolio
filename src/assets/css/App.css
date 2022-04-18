@@ -324,7 +324,7 @@ li a {
 .myexperience-body {
   display: flex;
   margin-bottom: 1em;
-  width: 20rem;
+  width: 19rem;
   position: absolute;
   top: -8rem;
 }
@@ -332,7 +332,7 @@ li a {
 .myexperience-body-two {
   display: flex;
   margin-bottom: 1em;
-  width: 20rem;
+  width: 19rem;
   position: absolute;
   bottom: -8rem;
 }
@@ -478,7 +478,7 @@ a {
   background: transparent;
   border-radius: 0.2rem;
   padding: 1rem;
-  border: 0.1px solid #544a66;
+  border: 0.2px solid #544a66;
   color: white;
   /* width: 15rem; */
 }
