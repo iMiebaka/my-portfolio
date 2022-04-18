@@ -7,7 +7,7 @@ const Contact = () => {
   const submitBudget = () => {
     swal(
       "Message Delivery Failed",
-      "Sorry, We could not deliver your message. However, you can send us a message directly to my email, I cant wait to hear from you.",
+      "Sorry, We could not deliver your message. However, you can send us a message directly to my email. \n I cant wait to hear from you.",
       "error"
     );
   };
@@ -45,6 +45,7 @@ const Contact = () => {
             id=""
             className="input-fixes pr mt"
             placeholder="Name"
+            required
           />
           <input
             type="email"
