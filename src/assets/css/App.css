@@ -339,6 +339,7 @@ li a {
 
 .myexperience-title {
   font-weight: bold;
+  margin-bottom: .5rem;
   color: var(--main-font-color);
   font-size: 1.7rem;
 }
@@ -349,7 +350,7 @@ li a {
 }
 
 .myexperience-container {
-  padding-bottom: 1.5rem;
+  /* padding-bottom: 1.5rem; */
 }
 
 .myexperience-polygon-line {
@@ -551,6 +552,11 @@ footer {
   font-size: 2.7rem;
   margin-bottom: 0.6rem;
 }
+
+.footer-contact a{
+font-size: medium;
+}
+
 
 /* Go up */
 .go-up {

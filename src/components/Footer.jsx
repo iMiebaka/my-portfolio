@@ -1,3 +1,4 @@
+import { Markup } from "interweave";
 import React from "react";
 import info from "../assets/info";
 import IMAGES from "../images";
@@ -10,7 +11,7 @@ const Footer = () => {
           <div className="footer-center_">
             <div className="footer-center">
               <span className="footer-greeting">Lets Say Hi</span>
-              <span>{info.contact[1][2]}</span>
+              <Markup className="footer-contact" content={info.contact[1][2]}/>
               <div className="footer-socials">
                 <a href={info.socials.facebook} target="_blank">
                   <img
@@ -18,7 +19,7 @@ const Footer = () => {
                     alt={info.socials.facebook}
                     srcSet=""
                     width="25"
-                    />
+                  />
                 </a>
                 <a href={info.socials.twitter} target="_blank">
                   <img
@@ -26,7 +27,7 @@ const Footer = () => {
                     alt={info.socials.twitter}
                     srcSet=""
                     width="25"
-                    />
+                  />
                 </a>
                 <a href={info.socials.instagram} target="_blank">
                   <img

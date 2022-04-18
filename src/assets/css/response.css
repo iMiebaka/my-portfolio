@@ -1,5 +1,4 @@
 @media only screen and (max-width: 700px) {
-  
   /* constants */
   .mt {
     margin-top: 1rem;
@@ -68,11 +67,9 @@
     display: none;
   }
   .port-cover-image-bg {
-    position: absolute;
-    z-index: -1;
-    top: -4rem;
-    right: -6rem;
-    width: 30rem;
+    top: 1.5rem;
+    right: 0rem;
+    /* width: 10rem; */
   }
   .port-sitation {
     width: 90%;
@@ -86,13 +83,13 @@
     flex-direction: column;
     align-items: center;
   }
-  
+
   .port-testimony {
-    width: 50%;
+    width: 70%;
     height: 200px;
     align-self: center;
   }
-  
+
   .testimony .testimony-number {
     font-size: 2.5rem;
   }
@@ -224,10 +221,12 @@
     font-size: 2rem;
     margin-bottom: 0.6rem;
   }
+  .footer-contact a {
+    font-size: small;
+  }
 }
 
 @media only screen and (min-width: 700px) {
-
   .mobile-view-header {
     display: none;
     position: absolute;
