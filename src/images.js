@@ -7,7 +7,7 @@ import instagramIcon from "./assets/images/twitter.png"
 import twitterIcon from "./assets/images/instagram.png"
 
 
-const IMAGES = { coverImage, coverImageBG, favicon, bgOne, footerDecoration,
+const IMAGES = { coverImage, coverImageBG, favicon, footerDecoration,
 facbookIcon,
 instagramIcon,twitterIcon
     
