@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import info from "../assets/info";
 import swal from "sweetalert";
-import { Markup } from 'interweave';
+import { Markup } from "interweave";
 
 const Contact = () => {
   const submitBudget = () => {
@@ -17,10 +17,8 @@ const Contact = () => {
       <div className="contact-us">
         <span className="contact-us-title">Contact Us</span>
         <span className="contact-us-desc mt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem,
-          repudiandae quibusdam explicabo debitis aliquid perferendis magni at
-          dolorum est repellat eius excepturi commodi unde harum quisquam, sint
-          consequatur! Aspernatur!
+          Am so glad you got through my portfolio, Do leave a message if you
+          need a software product. You are guaranteed a scalable application.{" "}
         </span>
         <div className="port-contact-items">
           {info.contact.map((item, key) => {
@@ -29,7 +27,7 @@ const Contact = () => {
                 <i className={item[0]}></i>
                 <div className="port-contact-item-details">
                   <span className="port-contact-header">{item[1]}</span>
-                  <Markup content={item[2]}/>
+                  <Markup content={item[2]} />
                 </div>
               </div>
             );

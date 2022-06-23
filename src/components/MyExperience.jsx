@@ -27,7 +27,7 @@ const MyExperience = () => {
                     </div>
                   </div>
                 </div>
-                <div className="myexperience-polygon-line"></div>
+                {/* <div className="myexperience-polygon-line"></div> */}
                 <div className="myexperience-polygon">{item.year}</div>
               </div>
             );

@@ -9,12 +9,7 @@ const CallToAction = () => {
         <span className="port-welcome">Welcome I'M</span>
         <span className="port-name">{info.profile.name}</span>
         <span className="port-title">{info.profile.position}</span>
-        <span className="port-sitation">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          dicta dolorem, quae expedita pariatur ab animi unde, non natus cumque
-          nostrum quisquam illum, facilis assumenda saepe. Nesciunt cupiditate
-          placeat quam.
-        </span>
+        <span className="port-sitation">{info.profile.details}</span>
       </div>
       <div className="cover-image-zone">
         <img
@@ -22,18 +17,14 @@ const CallToAction = () => {
           alt="cover-image-miebaka"
           className="port-cover-image"
         />
-        <img
-          src={IMAGES.coverImageBG}
-          alt=""
-          className="port-cover-image-bg"
-        />
+        <img src={IMAGES.coverImageBG} alt="" className="port-cover-image-bg" />
       </div>
       <div className="side-bar-socials">
         <span className="side-bar-title">FOLLOW ME ON:</span>
         <span className="side-bar-line"></span>
         <span className="side-bar-social">
-          <a href={info.socials.facebook} target="_blank">
-            <i className="mdi mdi-facebook"></i>
+          <a href={info.socials.youtube} target="_blank">
+            <i className="mdi mdi-youtube-play"></i>
           </a>
         </span>
         <span className="side-bar-social">
@@ -44,6 +35,11 @@ const CallToAction = () => {
         <span className="side-bar-social">
           <a href={info.socials.linkedin} target="_blank">
             <i className="mdi mdi-linkedin"></i>
+          </a>
+        </span>
+        <span className="side-bar-social">
+          <a href={info.socials.github} target="_blank">
+            <i className="mdi mdi-github-circle"></i>
           </a>
         </span>
       </div>
