@@ -82,5 +82,4 @@ The build files are located in the dist dir
 - <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by riajulislam - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/social" title="social icons">Social icons created by riajulislam - Flaticon</a>
 - <a href="https://www.blobmaker.app/" title="HTML Shape SVG">Blob Maker</a>
-- <a href="https://www.behance.net/gallery/139668309/Portfolio-Website-Design">Inspired By - Multiple Owners <a/>
-- Hat tip to anyone whose code was used
+- <a href="https://www.behance.net/gallery/139668309/Portfolio-Website-Design">Inspired 

@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <div className="portfolio-contact wrapper" id="contact-me">
       <div className="contact-us">
-        <span className="contact-us-title">Contact Us</span>
+        <span className="contact-us-title">Contact Me</span>
         <span className="contact-us-desc mt">
           Am so glad you got through my portfolio, Do leave a message if you
           need a software product. You are guaranteed a scalable application.{" "}
@@ -34,7 +34,7 @@ const Contact = () => {
           })}
         </div>
       </div>
-      <div className="drop-a-line" method="POST" action="">
+      {/* <div className="drop-a-line" method="POST" action="">
         <span className="contact-us-title">Drop a Line</span>
         <div className="make-column">
           <input
@@ -82,7 +82,7 @@ const Contact = () => {
         >
           Submit
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -13,9 +13,8 @@ const projects = [
     live: true,
     details: {
         title: "Lajo",
-        body: `This web app is known as the bank for the unbanking platform, it's a
-        fintech project that help SME save up and get interest at a set
-        duration.`,
+        body: `This finetech project is knowm as the bank for the unbanking, it 
+        helps SME save up and get interest at a set duration.`,
       tools: "Flask and Vue",
     },
   },
@@ -25,7 +24,7 @@ const projects = [
     link: "https://workspaceapp.works/",
     live: true,
     details: {
-        body: `This web application seeks to solve of the problem employers face when managing employees.
+        body: `This web application seeks to solve the problem employers face when managing employees.
         Some of the featues include, employee management, payroll system and attendance management.`,
         tools: "Flask and React",
     },
@@ -35,7 +34,7 @@ const projects = [
     projectName: "Whatapp Clone",
     link: "https://github.com/iMiebaka/Whatsapp_full_clone",
     details: {
-      body: `This web project is a collaburation from a Youtuber @clumes. It the clone of the Whatsapp application owned by facebook.
+      body: `This web project is a collaburation from a Youtuber @clumes. It the clone of the Whatsapp application owned by Facebook.
             Some of the featues include, real time messageing and video calling`,
       tools: "Django",
     },
@@ -45,7 +44,7 @@ const projects = [
     projectName: "YouTube GO Clone",
     link: "https://github.com/iMiebaka/youtubeGoClone",
     details: {
-      body: `This mobile development project, I made a clone of the YouTube's Go app. 
+      body: `In this mobile development project, I made a clone of the YouTube's Go app. 
             It's come with media player integration.`,
       tools: "React Native",
     },

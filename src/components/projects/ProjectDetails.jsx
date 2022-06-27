@@ -9,7 +9,7 @@ const ProjectDetails = ({ title, desc, tech, live }) => {
       <span className="project-details-header">Tools</span>
       <strong className="project-details-major">{tech}</strong>
       {live ? (
-        <i className="mdi mdi-access-point-network"></i>
+        <i className="mdi mdi-cloud"></i>
       ) : (
         <i className="mdi mdi-github-circle"></i>
       )}

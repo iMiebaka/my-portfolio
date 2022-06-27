@@ -132,6 +132,10 @@
     width: 100%;
     margin-top: 1rem;
   }
+
+  .myexperience-polygon {
+    margin-left: 2rem;
+  }
   .portfolio-thumbnail {
     /* width: 70%;
     height: 30rem; */
@@ -194,7 +198,7 @@
   }
 
   /* portfoilio */
-  .port-contact-info {
+  .port-contact-info, a {
     font-size: 1rem;
   }
   /* Contact us */

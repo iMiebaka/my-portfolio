@@ -351,6 +351,7 @@ li a {
   justify-content: space-between;
 }
 .myexperience-timeline {
+  width: 100%;
   position: relative;
   display: flex;
   align-items: center;
@@ -360,7 +361,7 @@ li a {
   display: flex;
   margin-bottom: 1em;
   width: 18rem;
-  position: absolute;
+  /* position: absolute; */
   top: -8rem;
 }
 
@@ -368,7 +369,7 @@ li a {
   display: flex;
   margin-bottom: 1em;
   width: 20rem;
-  position: absolute;
+  /* position: absolute; */
   bottom: -10rem;
 }
 
@@ -388,8 +389,16 @@ li a {
   /* margin-bottom: 1rem; */
 }
 
+.myexperience-central{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .myexperience-polygon {
-  margin-top: 5rem;
+  margin-top: 1rem;
+  margin-left: 0rem;
   width: 200px;
   height: 35px;
   text-align: center;
@@ -398,6 +407,7 @@ li a {
   align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
+  margin-bottom: 10px;
   background-color: var(--icon-background);
   color: var(--main-font-color);
   clip-path: polygon(0 0, 170px 0, 200px 16px, 170px 35px, 0 35px);
@@ -563,6 +573,7 @@ footer {
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 50%;
 }
 .line-1 {
@@ -579,7 +590,7 @@ footer {
 }
 
 .footer-greeting {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   margin-bottom: 0.6rem;
 }
 

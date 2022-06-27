@@ -11,7 +11,7 @@ const info = {
     position: "Software Engineer",
     details: `I currently work at ${contact.workingAt}.  I major in Web and Mobile apps. 
     I like to try out new technologies and challenge myself to be the best Software Developer of my time.
-     My Technologies are Django, Flask, React, React Native, and Vue.`,
+     My Technologies are Django, Flask, React, React Native, Vue and Docker.`,
   },
   experience: [
     ["01", "Award", "mdi mdi-trophy achievement-icon", "port-testimony"],
@@ -22,7 +22,7 @@ const info = {
       "port-testimony port-testimony-solid",
     ],
     [
-      "03",
+      `0${new Date().getFullYear() - 2019}`,
       "Years Experience",
       "mdi mdi-timelapse achievement-icon",
       "port-testimony",
@@ -46,7 +46,7 @@ const info = {
       year: 2019,
     },
     {
-      bodyType: "myexperience-body-two",
+      bodyType: "myexperience-body",
       title: "Web Development",
       body: "I picked up HTML, CSS, and Javascript. \
         I knew python really well so I took to Django and Flask \
@@ -56,7 +56,9 @@ const info = {
     {
       bodyType: "myexperience-body",
       title: "Frontend to Mobile",
-      body: "React and Vue are my frontend tools. I have built some projects with these technologies. Now I code Mobile applications with React Native.",
+      body: "React and Vue are my frontend tools. I have built some projects with \
+      these technologies. Now I code Mobile applications with React Native.\
+      And this landed me my first role as a Software Engineer.",
       year: 2022,
     },
   ],
@@ -66,11 +68,11 @@ const info = {
     So far it's been from Embedded Systems, Web Development, Machine Learning\
     to Mobile Development. I made a simplified timeline below.",
   contact: [
-    [
-      "mdi mdi-phone-in-talk port-contact-icons",
-      "Call Me",
-      `<a className="port-contact-info" href="tel:${contact.phone}">${contact.phone}</a>`,
-    ],
+    // [
+    //   "mdi mdi-phone-in-talk port-contact-icons",
+    //   "Call Me",
+    //   `<a className="port-contact-info" href="tel:${contact.phone}">${contact.phone}</a>`,
+    // ],
     [
       "mdi mdi-message-plus port-contact-icons",
       "Email",

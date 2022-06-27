@@ -11,11 +11,7 @@ const Portfolio = () => {
           <p className="portfolio-heading">Portfolio</p>
           <p className="portfolio-subtext">
             Here are some of my finished task I have carried out in the last couple of
-            years. Live project are indicated with {" "}
-            <i className="mdi mdi-access-point-network"></i>
-            <br/>
-            While {" "}
-            <i className="mdi mdi-github-circle"></i> are on my Github page.
+            years.
           </p>
         </div>
         {/* <div className="portfolio-project-nav">
